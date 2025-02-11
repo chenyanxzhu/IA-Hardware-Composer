@@ -121,7 +121,7 @@ bool IsSupportedMediaFormat(uint32_t format) {
     case DRM_FORMAT_YVYU:
     case DRM_FORMAT_VYUY:
     case DRM_FORMAT_AYUV:
-    case DRM_FORMAT_NV12_Y_TILED_INTEL:
+    case DRM_FORMAT_NV12_INTEL:
     case DRM_FORMAT_NV21:
     case DRM_FORMAT_YVU420_ANDROID:
       return true;

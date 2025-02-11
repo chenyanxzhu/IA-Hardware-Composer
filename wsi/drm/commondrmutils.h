@@ -72,7 +72,7 @@ static size_t drm_bo_get_num_planes(uint32_t format) {
       return 1;
     case DRM_FORMAT_NV12:
     case DRM_FORMAT_NV21:
-    case DRM_FORMAT_NV12_Y_TILED_INTEL:
+    case DRM_FORMAT_NV12_INTEL:
     case DRM_FORMAT_NV16:
     case DRM_FORMAT_P010:
       return 2;

@@ -163,7 +163,7 @@ static uint32_t DrmFormatToHALFormat(int format) {
     case DRM_FORMAT_YVU444:
       ETRACE("YUV format using RGB buffer \n");
       return 0;
-    case DRM_FORMAT_NV12_Y_TILED_INTEL:
+    case DRM_FORMAT_NV12_INTEL:
       return HAL_PIXEL_FORMAT_NV12_Y_TILED_INTEL;
     case DRM_FORMAT_P010:
       return HAL_PIXEL_FORMAT_P010_INTEL;

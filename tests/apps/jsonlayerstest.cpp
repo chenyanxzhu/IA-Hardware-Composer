@@ -602,7 +602,7 @@ static uint32_t layerformat2gbmformat(LAYER_FORMAT format,
     case LAYER_HAL_PIXEL_FORMAT_NV12_Y_TILED_INTEL:
       *usage_format = LAYER_HAL_PIXEL_FORMAT_NV12_Y_TILED_INTEL;
       *usage = hwcomposer::kLayerVideo;
-      return DRM_FORMAT_NV12_Y_TILED_INTEL;
+      return DRM_FORMAT_NV12_INTEL;
     case LAYER_FORMAT_UNDEFINED:
       return (uint32_t)-1;
   }

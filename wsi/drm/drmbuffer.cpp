@@ -79,7 +79,7 @@ DrmBuffer::~DrmBuffer() {
 
 void DrmBuffer::Initialize(const HwcMeta& meta) {
   format_ = meta.format_;
-  if (format_ == DRM_FORMAT_NV12_Y_TILED_INTEL || format_ == DRM_FORMAT_NV21)
+  if (format_ == DRM_FORMAT_NV12_INTEL || format_ == DRM_FORMAT_NV21)
     format_ = DRM_FORMAT_NV12;
   else if (format_ == DRM_FORMAT_YVU420_ANDROID)
     format_ = DRM_FORMAT_YUV420;
